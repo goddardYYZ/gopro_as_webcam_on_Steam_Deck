@@ -3,6 +3,7 @@
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 YELLOW='\033[0;33m'
+BLUE="\033[0;34m"
 NC='\033[0m' # No Color
 
 function red {
@@ -17,9 +18,15 @@ function yellow {
     printf "${YELLOW}$@${NC}\n"
 }
 
-curl -s https://raw.githubusercontent.com/jschmid1/gopro_as_webcam_on_linux/master/gopro -o /rootfs/usr/local/sbin/gopro
+function blue {
+    printf "${BLUE}$@${NC}\n"
+}
 
-chmod +x /rootfs/usr/local/sbin/gopro
+mkdir -p /usr/local/sbin/gopro
+
+curl -sS https://raw.githubusercontent.com/jschmid1/gopro_as_webcam_on_linux/master/gopro -o /usr/local/sbin/gopro
+
+chmod +x /usr/local/sbin/gopro
 
 alias gopro="sudo gopro"
 
