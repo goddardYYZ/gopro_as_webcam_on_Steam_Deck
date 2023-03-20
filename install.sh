@@ -22,9 +22,11 @@ function blue {
     printf "${BLUE}$@${NC}\n"
 }
 
-mkdir -p /usr/local/sbin/gopro
+#chmod +w /usr/local/sbin
 
-curl -sS https://raw.githubusercontent.com/jschmid1/gopro_as_webcam_on_linux/master/gopro -o /usr/local/sbin/gopro
+#mkdir -p /usr/local/sbin/gopro
+
+sudo curl -sS https://raw.githubusercontent.com/jschmid1/gopro_as_webcam_on_linux/master/gopro -o /usr/local/sbin/gopro
 
 chmod +x /usr/local/sbin/gopro
 
