@@ -24,11 +24,11 @@ function blue {
 
 #mkdir -p /home/Scripts/gopro
 
-curl -sS https://raw.githubusercontent.com/jschmid1/gopro_as_webcam_on_linux/master/gopro -o /run/media/mmcblk0p1/Scripts/gopro
+curl -sS https://raw.githubusercontent.com/jschmid1/gopro_as_webcam_on_linux/master/gopro -o /dev/mmcblk0p1/Scripts/gopro
 
-chmod +x /run/media/mmcblk0p1/Scripts/gopro
+chmod +x /dev/mmcblk0p1/Scripts/gopro
 
-alias gopro="sudo bash ./run/media/mmcblk0p1/Scripts/gopro"
+alias gopro="sudo bash ./dev/mmcblk0p1/Scripts/gopro"
 
 blue "**********************"
 printf "\n\n"
