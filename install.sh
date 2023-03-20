@@ -17,14 +17,18 @@ function yellow {
     printf "${YELLOW}$@${NC}\n"
 }
 
-curl -s https://raw.githubusercontent.com/jschmid1/gopro_as_webcam_on_linux/master/gopro -o /usr/local/sbin/gopro
+curl -s https://raw.githubusercontent.com/jschmid1/gopro_as_webcam_on_linux/master/gopro -o /rootfs/usr/local/sbin/gopro
 
-chmod +x /usr/local/sbin/gopro
+chmod +x /rootfs/usr/local/sbin/gopro
 
-yellow "**********************"
+alias gopro="sudo gopro"
+
+blue "**********************"
 printf "\n\n"
 green "The GoPro install script succeeded"
-green "Run with with: "
+yellow "Run with with: "
 green "sudo gopro"
+yellow "or"
+green "gopro"
 printf "\n\n"
-yellow "**********************"
+blue "**********************"
