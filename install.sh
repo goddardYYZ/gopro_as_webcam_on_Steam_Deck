@@ -22,13 +22,13 @@ function blue {
     printf "${BLUE}$@${NC}\n"
 }
 
-mkdir -p /home/Scripts/gopro
+#mkdir -p /home/Scripts/gopro
 
-curl -sS https://raw.githubusercontent.com/jschmid1/gopro_as_webcam_on_linux/master/gopro -o /home/Scripts/gopro
+curl -sS https://raw.githubusercontent.com/jschmid1/gopro_as_webcam_on_linux/master/gopro -o /run/media/mmcblk0p1/Scripts/gopro
 
-chmod +x /home/Scripts/gopro
+chmod +x /run/media/mmcblk0p1/Scripts/gopro
 
-alias gopro="sudo bash ./home/Scripts/gopro"
+alias gopro="sudo bash ./run/media/mmcblk0p1/Scripts/gopro"
 
 blue "**********************"
 printf "\n\n"
