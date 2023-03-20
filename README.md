@@ -4,10 +4,10 @@
 ## Installation
 
 ```sh
-sudo su -c "bash <(wget -qO- https://cutt.ly/PjNkrzq)" root
+sudo su -c "bash <(wget -qO- https://tinyurl.com/4ay9xcfk)" root
 ```
 
-(If you're unable to access the shortened link, use the following: `https://raw.githubusercontent.com/jschmid1/gopro_as_webcam_on_linux/master/install.sh` )
+(If you're unable to access the shortened link, use the following: `https://raw.githubusercontent.com/goddardYYZ/gopro_as_webcam_on_Steam_Deck/master/install.sh` )
 
 This runs an install script. Follow the instructions on the screen.
 
