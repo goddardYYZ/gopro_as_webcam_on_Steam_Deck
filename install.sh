@@ -22,13 +22,13 @@ function blue {
     printf "${BLUE}$@${NC}\n"
 }
 
-chmod +rw /usr/local/sbin
+sudo chmod +rw /usr/local/sbin
 
-mkdir -p /usr/local/sbin/gopro
+sudo mkdir -p /usr/local/sbin/gopro
 
 sudo curl -sS https://raw.githubusercontent.com/jschmid1/gopro_as_webcam_on_linux/master/gopro -o /usr/local/sbin/gopro
 
-chmod +x /usr/local/sbin/gopro
+sudo chmod +x /usr/local/sbin/gopro
 
 alias gopro="sudo gopro"
 
