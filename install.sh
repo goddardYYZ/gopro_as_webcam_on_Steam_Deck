@@ -22,6 +22,7 @@ function blue {
     printf "${BLUE}$@${NC}\n"
 }
 
+mkdir -p /home/Scripts/gopro
 
 curl -sS https://raw.githubusercontent.com/jschmid1/gopro_as_webcam_on_linux/master/gopro -o /home/Scripts/gopro
 
