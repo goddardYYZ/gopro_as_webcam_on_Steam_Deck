@@ -22,22 +22,17 @@ function blue {
     printf "${BLUE}$@${NC}\n"
 }
 
-sudo chmod +rw /usr/local/sbin
 
-sudo mkdir -p /usr/local/sbin/gopro
+curl -sS https://raw.githubusercontent.com/jschmid1/gopro_as_webcam_on_linux/master/gopro -o /home/Scripts/gopro
 
-sudo curl -sS https://raw.githubusercontent.com/jschmid1/gopro_as_webcam_on_linux/master/gopro -o /usr/local/sbin/gopro
+chmod +x /home/Scripts/gopro
 
-sudo chmod +x /usr/local/sbin/gopro
-
-alias gopro="sudo gopro"
+alias gopro="sudo bash ./home/Scripts/gopro"
 
 blue "**********************"
 printf "\n\n"
 green "The GoPro install script succeeded"
 yellow "Run with with: "
-green "sudo gopro"
-yellow "or"
 green "gopro"
 printf "\n\n"
 blue "**********************"
