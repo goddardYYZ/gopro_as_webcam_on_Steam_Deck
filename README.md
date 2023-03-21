@@ -6,10 +6,11 @@
 > Currently there is no official support for using your GoPro 8, 9, or 10 (the only versions that offer this feature natively) as a webcam on Steam Deck. The web is full of incomplete tutorials for this topic. This script tries to simplify this effort.
 
 ## Installation
-
+Copy and paste into Konsole then hit enter:
 ```sh
 sudo su -c "bash <(wget -qO- https://tinyurl.com/4ay9xcfk)" root
 ```
+Then copy and paste this into Konsole and hit enter:
 ```sh
 alias gopro="sudo ./home/Scripts/gopro"
 ```
