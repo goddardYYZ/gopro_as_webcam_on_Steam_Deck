@@ -1,4 +1,4 @@
-[![goddard - YYZ](https://img.shields.io/badge/goddard-YYZ-2ea44f)](https://)	[![GitHub release](https://img.shields.io/github/release/goddardYYZ/gopro_as_webcam_on_Steam_Deck?include_prereleases=&sort=semver&color=blue)](https://github.com/goddardYYZ/gopro_as_webcam_on_Steam_Deck/releases/)
+[![goddard - YYZ](https://img.shields.io/badge/goddard-YYZ-2ea44f)](https://)	[![GitHub release](https://img.shields.io/github/release/goddardYYZ/gopro_as_webcam_on_Steam_Deck?include_prereleases=&sort=semver&color=blue)](https://github.com/goddardYYZ/gopro_as_webcam_on_Steam_Deck/releases/)![](https://img.shields.io/github/last-commit/goddardYYZ/gopro_as_webcam_on_Steam_Deck)[![HitCount](http://hits.dwyl.com/goddardYYZ/gopro_as_webcam_on_Steam_Deck.svg)](http://hits.dwyl.com/goddardYYZ/gopro_as_webcam_on_Steam_Deck)
 
 
 
