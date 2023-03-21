@@ -1,5 +1,5 @@
-# Use your GoPro as a webcam on Linux (without additional hardware)
-> Currently there is no official support for using your GoPro 8, 9, or 10 (the only versions that offer this feature natively) as a webcam on Linux. The web is full of incomplete tutorials for this topic. This script tries to simplify this effort.
+# Use your GoPro as a webcam on Steam Deck (without additional hardware)
+> Currently there is no official support for using your GoPro 8, 9, or 10 (the only versions that offer this feature natively) as a webcam on Steam Deck. The web is full of incomplete tutorials for this topic. This script tries to simplify this effort.
 
 ## Installation
 
@@ -13,9 +13,7 @@ alias gopro="sudo ./home/Scripts/gopro"
 
 This runs an install script. Follow the instructions on the screen.
 
-_The script install the `gopro` script to `/usr/local/sbin/gopro` and set an executable flag._
-
-This script is also on the [Arch User Repositories (AUR)](https://aur.archlinux.org/packages/gopro-webcam/). Please check the Arch wiki for more information on how to install from the AUR.
+_The script install the `gopro` script to `/home/Scripts/gopro` and set an executable flag._
 
 
 ## Usage
