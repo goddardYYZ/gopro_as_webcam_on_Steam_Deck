@@ -22,13 +22,11 @@ function blue {
     printf "${BLUE}$@${NC}\n"
 }
 
-#mkdir -p /home/Scripts/gopro
-
 sudo curl -s --create-dirs https://raw.githubusercontent.com/jschmid1/gopro_as_webcam_on_linux/master/gopro -o /home/Scripts/gopro
 
-sudo chmod -R 777 /home/Scripts
+sudo chmod -R 755 /home/Scripts
 
-sudo alias gopro="sudo bash ./home/Scripts/gopro"
+sudo alias gopro="sudo ./home/Scripts/gopro"
 
 blue "**********************"
 printf "\n\n"
