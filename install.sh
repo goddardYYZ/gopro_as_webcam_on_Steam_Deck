@@ -26,7 +26,7 @@ function blue {
 
 curl -s --create-dirs https://raw.githubusercontent.com/jschmid1/gopro_as_webcam_on_linux/master/gopro -o /home/Scripts/gopro
 
-chmod 750 /home/Scripts/gopro
+sudo chmod 750 /home/Scripts/gopro
 
 alias gopro="sudo bash ./home/Scripts/gopro"
 
