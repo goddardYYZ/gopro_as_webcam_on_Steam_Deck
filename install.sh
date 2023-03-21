@@ -28,7 +28,7 @@ sudo curl -s --create-dirs https://raw.githubusercontent.com/jschmid1/gopro_as_w
 
 sudo chmod -R 777 /home/Scripts
 
-alias gopro="sudo bash ./home/Scripts/gopro"
+sudo alias gopro="sudo bash ./home/Scripts/gopro"
 
 blue "**********************"
 printf "\n\n"
