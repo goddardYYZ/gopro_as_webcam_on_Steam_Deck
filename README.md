@@ -1,6 +1,6 @@
 [![goddard - YYZ](https://img.shields.io/badge/goddard-YYZ-2ea44f)](https://)
 
-[![GitHub release](https://img.shields.io/github/release/goddardYYZ/ gopro_as_webcam_on_Steam_Deck?include_prereleases=&sort=semver&color=blue)](https://github.com/goddardYYZ/ gopro_as_webcam_on_Steam_Deck/releases/)
+[![GitHub release](https://img.shields.io/github/release/goddardYYZ/gopro_as_webcam_on_Steam_Deck?include_prereleases=&sort=semver&color=blue)](https://github.com/goddardYYZ/gopro_as_webcam_on_Steam_Deck/releases/)
 
 # Use your GoPro as a webcam on Steam Deck (without additional hardware)
 > Currently there is no official support for using your GoPro 8, 9, or 10 (the only versions that offer this feature natively) as a webcam on Steam Deck. The web is full of incomplete tutorials for this topic. This script tries to simplify this effort.
