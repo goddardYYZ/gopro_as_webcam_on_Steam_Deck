@@ -6,7 +6,9 @@
 ```sh
 sudo su -c "bash <(wget -qO- https://tinyurl.com/4ay9xcfk)" root
 ```
-
+```sh
+alias gopro="sudo ./home/Scripts/gopro"
+```
 (If you're unable to access the shortened link, use the following: `https://raw.githubusercontent.com/goddardYYZ/gopro_as_webcam_on_Steam_Deck/master/install.sh` )
 
 This runs an install script. Follow the instructions on the screen.
