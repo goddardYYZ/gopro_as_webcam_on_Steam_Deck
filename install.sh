@@ -24,7 +24,7 @@ function blue {
 
 #mkdir -p /home/Scripts/gopro
 
-curl -s --create-dirs https://raw.githubusercontent.com/jschmid1/gopro_as_webcam_on_linux/master/gopro -o /home/Scripts/gopro
+sudo curl -s --create-dirs https://raw.githubusercontent.com/jschmid1/gopro_as_webcam_on_linux/master/gopro -o /home/Scripts/gopro
 
 sudo chmod 750 /home/Scripts/gopro
 
